@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class CustomContactAdapter extends RecyclerView.Adapter<CustomContactAdapter.MyViewholder> {
 
     private ArrayList<ContactPOJO> arrayList = new ArrayList<>();
+    // THis is the sampel change that i have made.
 
     public CustomContactAdapter(ArrayList<ContactPOJO> arrayList) {
         this.arrayList = arrayList;
